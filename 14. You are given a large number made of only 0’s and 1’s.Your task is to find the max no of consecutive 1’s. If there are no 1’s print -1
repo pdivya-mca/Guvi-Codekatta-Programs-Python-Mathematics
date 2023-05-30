@@ -6,7 +6,7 @@ A large number ‘n’
 Output Description:
 Print the max no of consecutive 1 in the number
 
-Sample Input :
+Input :
 101011111
 Sample Output :
 5

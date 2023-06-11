@@ -1,0 +1,15 @@
+Given a number N, print the product of the digits.
+Input Size : N <= 100000000000
+Sample Testcase :
+INPUT
+2143
+OUTPUT
+24
+
+
+N=int(input())
+product=1
+for i in str(N):
+  product=product*(N%10)
+  N=N//10
+print(product)

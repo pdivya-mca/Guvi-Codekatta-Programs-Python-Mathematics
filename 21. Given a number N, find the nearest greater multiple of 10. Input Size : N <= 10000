@@ -1,0 +1,17 @@
+Given a number N, find the nearest greater multiple of 10.
+Input Size : N <= 10000
+Sample Testcase :
+INPUT
+3
+OUTPUT
+10
+
+
+
+import math
+number=int(input())
+number = number / 10
+#ceil is used to round the float value to greatest integer, floor gives the round of lowest value
+number =math.ceil(number)
+number = number * 10
+print(number)

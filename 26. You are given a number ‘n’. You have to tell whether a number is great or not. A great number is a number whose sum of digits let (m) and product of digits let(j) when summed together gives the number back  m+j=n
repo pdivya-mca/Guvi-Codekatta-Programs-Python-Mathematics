@@ -1,0 +1,39 @@
+You are given a number ‘n’. You have to tell whether a number is great or not. A great number is a number whose sum of digits let (m) and product of digits let(j) when summed together gives the number back
+
+m+j=n
+
+ 
+
+Input Description:
+You are given a number n;
+
+Output Description:
+Print Great if a number is great else print the no
+
+Sample Input :
+59
+Sample Output :
+Great
+
+
+
+#m+j=n
+n=int(input())
+t=n
+sum=0
+product=1
+while n > 0:
+  digit=n%10
+  sum=sum+digit
+  #print("sum:",  sum)
+  product=digit*product
+  #print( "Product",    product)
+  n=n//10
+res=sum+product
+#print(res)
+if res==t:
+  print("Great")
+else:
+  print("no")
+
+  

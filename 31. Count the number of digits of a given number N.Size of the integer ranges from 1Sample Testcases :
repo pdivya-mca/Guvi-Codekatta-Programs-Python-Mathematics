@@ -1,0 +1,15 @@
+Count the number of digits of a given number N.Size of the integer ranges from 1Sample Testcases :
+INPUT
+548
+OUTPUT
+3
+
+
+N=int(input())
+count=0
+while N>0:
+  digit=N%10
+  count=count+1
+  N=N//10
+  
+print(count)

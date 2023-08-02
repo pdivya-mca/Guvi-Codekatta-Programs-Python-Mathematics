@@ -1,0 +1,12 @@
+Given a number N, check whether it is prime or not. Print 'yes' if it is prime else print 'no'.
+Sample Testcase :
+INPUT
+123
+OUTPUT
+no
+
+N=int(input())
+if(N%2==0 or N%3==0 or N%5==0):
+  print('no')
+else:
+  print('yes')

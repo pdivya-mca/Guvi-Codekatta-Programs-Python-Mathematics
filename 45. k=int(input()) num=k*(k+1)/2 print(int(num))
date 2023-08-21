@@ -1,0 +1,13 @@
+Write a program to print the sum of the first K natural numbers.
+Input Size : n <= 100000
+Sample Testcase :
+INPUT
+3
+OUTPUT
+6
+
+
+https://github.com/pdivya-mca/Guvi-Codekatta-Programs-Python-Mathematics/tree/main
+k=int(input())
+num=k*(k+1)/2
+print(int(num))

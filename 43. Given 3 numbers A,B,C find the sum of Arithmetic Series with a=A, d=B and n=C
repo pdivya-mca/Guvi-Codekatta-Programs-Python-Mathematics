@@ -1,0 +1,13 @@
+Given 3 numbers A,B,C find the sum of Arithmetic Series with a=A, d=B and n=C
+Sample Testcase :
+INPUT
+1 1 2
+OUTPUT
+3
+
+
+#Formula:((n / 2) * (2 * a + (n - 1) * d))
+#Given -- >a=A, d=B and n=C
+A,B,C=(int(no) for no in input().split())
+result=((C/2)*(2*A+(C-1)*B))
+print(round(result))

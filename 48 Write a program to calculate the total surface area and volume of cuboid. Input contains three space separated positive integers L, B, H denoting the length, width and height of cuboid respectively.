@@ -1,0 +1,15 @@
+Write a program to calculate the total surface area and volume of cuboid. Input contains three space separated positive integers L, B, H denoting the length, width and height of cuboid respectively.
+Sample Testcase :
+INPUT
+1 2 3
+OUTPUT
+22 6
+
+
+'''Volume of cuboid =l×b×h.
+Surface area od cuboid=2lw+2lh+2hw'''
+# given L, B, H
+L, B, H=(int(no) for no in input().split())
+volume=L*B*H
+surface_area=(2*L*B)+(2*L*H)+(2*H*B)
+print(surface_area, volume)
